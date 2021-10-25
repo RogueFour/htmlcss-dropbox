@@ -282,4 +282,20 @@ a{
 
                     /* Dropbox Business */
 
-.                    
+.h2-drop{
+    font-size: 2.5em;
+    margin-top: 3em;
+}
+
+.wd-30 {
+    width: calc(100% / 3 - 4em);
+    margin: 2em;
+}
+
+.wd-30 img{
+    width: 100%;
+}
+
+.underline-p {
+    text-decoration: underline;
+}
