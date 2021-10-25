@@ -424,12 +424,33 @@ a{
     font-weight: bold;
 }
 
-.bor-bottom-faq  li,h2{
+.bor-bottom-faq li, .bor-bottom-faq h2{
     border-bottom: 1px solid lightgrey;
 }
 
         /* footer */
 
+.dark-bg {
+    background-color: black;
+}
+
 .margin-footer {
-    margin: 80%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5em;
+    padding: 5em 0;
+}
+
+.intest-footer {
+    padding: 1em 0;
+    font-weight: bold;
+    color: white;
+}
+
+.link-footer a{
+    color: white;
+}
+
+[class*="column-"] {
+    width: 20%;
 }
