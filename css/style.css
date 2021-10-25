@@ -316,7 +316,8 @@ a{
                 /* section svg */
 
 .svg {
-    margin: 2em 0;
+    margin: 2em 0 0 0;
+    height: 27.55em;
 }
 
 .svg .wd-30 {
@@ -329,6 +330,9 @@ a{
     margin-top: 2em;
     width: 40%;
     padding: 1em 4em 0 4em;
+    height: 25em;
+    overflow: auto;
+    max-width: 100%;
 }
 
 .filt-inv {
@@ -375,4 +379,57 @@ a{
     position: relative;
     width: 50%;
     height: 220px;
+}
+
+.bc-lb {
+    background-color: rgb(180,208,231);
+}
+
+.free-trial {
+    color: rgb(97,8,43);
+    padding: 2em 0;
+    font-size: 3em;
+}
+
+.btn-white {
+    color: black;
+    background-color: white;
+    padding: 0.5em 6em;
+}
+
+.wd-45{
+    width: 44%;
+}
+.wd-50-main{
+    width: 50%;
+}
+.float-right-main {
+    float: right;
+}
+
+.pad-btn{
+    padding: 8em;
+}
+
+            /* FAQ  */
+
+
+.h2-faq{
+    font-size: 2em;
+    padding: 2em 0;
+}
+
+.faq-lineheight {
+    line-height: 4em;
+    font-weight: bold;
+}
+
+.bor-bottom-faq  li,h2{
+    border-bottom: 1px solid lightgrey;
+}
+
+        /* footer */
+
+.margin-footer {
+    margin: 80%;
 }
