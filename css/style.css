@@ -226,7 +226,7 @@ a{
 }
 
 #underline {
-    color: blue;
+    color: rgb(0,97,255);
     text-decoration: underline;
 }
 
@@ -290,15 +290,89 @@ a{
     margin-top: 3em;
 }
 
-.wd-30 {
-    width: calc(100% / 3 - 4em);
-    margin: 2em;
+.drop-business .wd-30 {
+    width: calc(100% / 3 - 3em);
+    margin: 2em 0;
 }
 
 .wd-30 img{
     width: 100%;
+    padding: 4em;
+}
+
+.drop-business .mar-cent {
+    margin: 2em 4em;
 }
 
 .underline-p {
     text-decoration: underline;
+}
+
+.mar-bot {
+    margin-bottom: 1em;
+    padding-right: 15em;
+}
+
+                /* section svg */
+
+.svg {
+    margin: 2em 0;
+}
+
+.svg .wd-30 {
+    width: 30%;
+}
+.bc-grey {
+    background-color: rgb(221, 221, 221);
+}
+.wd-40 {
+    margin-top: 2em;
+    width: 40%;
+    padding: 1em 4em 0 4em;
+}
+
+.filt-inv {
+    filter: invert(100%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#designit {
+    background-color: rgb(162,211,155);
+}
+#asu {
+    background-color: rgb(97,8,43);
+}
+#uf {
+    background-color: rgb(0,147,206);
+}
+#topps {
+    background-color: rgb(255,28,28);
+}
+#world {
+    background-color: rgb(213,0,31);
+}
+#heart {
+    background-color: rgb(180,208,231);
+}
+#lonely {
+    background-color: rgb(13,36,129);
+}
+#clear {
+    background-color: rgb(255,216,48);
+}
+
+.svg-logo{
+    width: 10em;
+}
+#svg-p {
+    margin: 2.5em 0;
+}
+
+.pos-rel {
+    position: relative;
+    width: 50%;
+    height: 220px;
 }
