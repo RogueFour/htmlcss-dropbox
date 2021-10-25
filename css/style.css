@@ -437,20 +437,28 @@ a{
 .margin-footer {
     width: 80%;
     margin: auto;
-    margin-top: 5em;
-    padding: 5em 0;
+    margin-top: 6em;
+    padding: 1em 0;
 }
 
 .intest-footer {
     padding: 1em 0;
-    font-weight: bold;
     color: white;
+    font-size: 1.5em;
 }
 
 .link-footer a{
     color: white;
+    line-height: 2em;
 }
 
 [class*="column-"] {
     width: 20%;
+}
+
+.languages {
+    padding: 3em 3em 0 0;
+    border-top: 1px solid grey;
+    color: grey;
+    cursor: pointer;
 }
