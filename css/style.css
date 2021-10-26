@@ -53,7 +53,6 @@ html {
 
 li{
     list-style-type: none;
-  
 }
 
 .navbar a{
@@ -64,11 +63,16 @@ a{
     text-decoration: none;
 }
 
+.navbar .float-right .btn {
+    display: inline
+}
+
 .btn {
     padding: 0.3em 0.8em;
     background-color: rgb(0,97,255);
     color: white;
     transition: 0.5s;
+    display: inline-block;
 }
 .float-right .btn {
     color: white;
@@ -475,4 +479,22 @@ a{
     border-top: 1px solid grey;
     color: grey;
     cursor: pointer;
+}
+
+.visibile {
+    display: block;
+}
+
+.invisible{    
+    display: none;
+}
+
+.bor-bottom-faq .faq-lineheight:hover .invisible {
+    display: block;
+}
+
+.inv-text {
+    padding: 0 5em 0 2em;
+    line-height: 1em;
+    font-weight: normal;
 }
