@@ -234,9 +234,11 @@ a{
     border-bottom: 1px solid grey;
     padding: 1em 0;
 }
-
-#underline:hover, #underline:active, #underline:focus {
+#underline {
     color: rgb(0,97,255);
+
+}
+#underline:hover, #underline:active, #underline:focus {
     text-decoration: underline;
 }
 
