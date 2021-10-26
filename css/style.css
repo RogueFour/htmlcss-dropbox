@@ -407,10 +407,11 @@ a{
     font-size: 3em;
 }
 
-.btn-white {
+.bc-lb .container .clearfix .pad-btn .btn-white {
     color: black;
     background-color: white;
     padding: 0.5em 6em;
+    display: inline-block;
 }
 
 .wd-45{
@@ -479,10 +480,6 @@ a{
     border-top: 1px solid grey;
     color: grey;
     cursor: pointer;
-}
-
-.visibile {
-    display: block;
 }
 
 .invisible{    
